@@ -1,0 +1,7 @@
+{
+  "Temperature": "NormalDistribution",
+  "Humidity": "Logicstic",
+  "Sensor1": "Triangular",
+  "Sensor2": "Beta"
+
+}
