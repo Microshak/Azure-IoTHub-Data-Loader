@@ -7,7 +7,7 @@ You will need to grab a device id and key from IoT hub.  Put that in the appropr
 
 ## Editing the JSON document
 If you want to send you own data format then simply edit the template.json file.
-The program does a string replacement on the distibutions.  So for example this:
+The program does a string replacement on the distributions.  So for example this:
 ```json
 {
   "Temperature": "NormalDistribution",
