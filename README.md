@@ -1,7 +1,6 @@
 # Azure-IoTHub-Data-Loader
 Uploads data to IoTHub using statistical distrubutions
 
-
 ## Configure
 You will need to grab a device id and key from IoT hub.  Put that in the appropriate spot in the code and you should be off and running.
 
@@ -26,4 +25,8 @@ becomes
   "Sensor2": 0.33004126435576014, 
   "Sensor1": 3.1849581097086297
 }
+```
+# Usage
+```sh
+python IoTHubDataLoader.py
 ```
