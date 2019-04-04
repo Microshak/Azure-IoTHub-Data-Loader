@@ -30,3 +30,17 @@ becomes
 ```sh
 python IoTHubDataLoader.py
 ```
+
+---
+# Running program
+
+
+Then run
+
+```sh
+
+cd Azure-IoTHub-Data-Loader/IoTHubDataLoader
+pip3 install -r requirements.txt
+python3 IoTHubDataLoader.py
+
+```

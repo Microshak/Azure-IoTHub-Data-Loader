@@ -19,6 +19,7 @@ class IoTDataMsgSender:
             self.deviceid = deviceid
             self.deviceKey = deviceKey
             
+            
     def sendD2CMsg(self, message, sasToken):
         url = 'https://%s/devices/%s/messages/events?api-version=%s' % (self.iotHost, self.deviceid, self.API_VERSION)
         r = requests.post(url, headers={'Authorization': sasToken}, data=message)
