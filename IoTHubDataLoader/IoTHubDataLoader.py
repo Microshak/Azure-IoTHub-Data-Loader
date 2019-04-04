@@ -2,7 +2,7 @@ from D2CMsgSender import IoTDataMsgSender
 import time 
 from BuildData import BuildData
 connectionString = 'HostName=[YourIoTHub].azure-devices.net;DeviceId=[LoadTest];SharedAccessKey=[DeviceKey]'
-MessagesToSend = 1000
+MessagesToSend = 10000
 
 
 if __name__ == '__main__':  

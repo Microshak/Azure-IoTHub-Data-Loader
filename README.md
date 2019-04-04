@@ -44,3 +44,6 @@ pip3 install -r requirements.txt
 python3 IoTHubDataLoader.py
 
 ```
+
+[![full](https://img.youtube.com/vi/xxMrr21clFQ/0.jpg)](https://www.youtube.com/watch?v=xxMrr21clFQ)
+
